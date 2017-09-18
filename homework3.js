@@ -1,4 +1,5 @@
-arithmeticalOperations = function (x1, x2, x3) {
+<script>
+    arithmeticalOperations = function (x1, x2, x3) {
     return x1*x2-x3;
 };
 arithmeticalOperations(1, 2, 5);
@@ -54,3 +55,4 @@ firstTruethyValue = function(x, y, z){
  return x || y || z;
 };
 firstTruethyValue(5, '', 0);
+</script>
