@@ -12,7 +12,7 @@ noArguments();
 
 
 const noOutcome = function(a,b){
-a * b;
+const product = a * b;
 };
 noOutcome(1,5);
 
