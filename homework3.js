@@ -1,28 +1,28 @@
 <script>
-    arithmeticalOperations = function (x1, x2, x3) {
+   const arithmeticalOperations = function (x1, x2, x3) {
     return x1*x2-x3;
 };
 arithmeticalOperations(1, 2, 5);
 
 
- noArguments = function () {
+const noArguments = function () {
   return 3;
 };
 noArguments();
 
 
- noOutcome = function(a,b){
+const noOutcome = function(a,b){
 a * b;
 };
 noOutcome(1,5);
 
 
-fullName = function(firstName, lastName) {
+const fullName = function(firstName, lastName) {
   return firstName + ' ' + lastName;
 };
 fullName('Arshak', 'Kosakyan');
 
-longestValue = function(a, b, c) {
+const longestValue = function(a, b, c) {
  if(a.length > b.length){
     if(a.length > c.length){
        return a;
@@ -40,7 +40,7 @@ longestValue = function(a, b, c) {
  longestValue ('Arshak','Artur','Hayk' );
  
  
-signum = function(x, y){
+const signum = function(x, y){
  if(x > y){ 
     return 1;
  }else if(y > x){
@@ -51,7 +51,7 @@ signum = function(x, y){
 signum (1, 2);
 
 
-firstTruethyValue = function(x, y, z){
+ const firstTruethyValue = function(x, y, z){
  return x || y || z;
 };
 firstTruethyValue(5, '', 0);
