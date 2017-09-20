@@ -1,4 +1,3 @@
-<script>
    const arithmeticalOperations = function (x1, x2, x3) {
     return x1*x2-x3;
 };
@@ -55,4 +54,3 @@ signum (1, 2);
  return x || y || z;
 };
 firstTruethyValue(5, '', 0);
-</script>
